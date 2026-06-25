@@ -33,6 +33,7 @@ function App() {
 
   return (
     <div>
+      <h2>Freelancer Profile Manager - by Wadie</h2>  
       <input value={name} onChange={(e) => setName(e.target.value)} placeholder="freelancer name" />
       <input value={skill} onChange={(e) => setSkill(e.target.value)} placeholder="freelancer skill" />
       <button onClick={addFreelancer}>Add</button>
