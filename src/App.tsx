@@ -42,7 +42,7 @@ function App() {
       {freelancers.map((f, index) => (
   <div key={index}>
     <h3>{f.name} - {f.skill}</h3>
-    <button onClick={() => deleteFreelancer(index)}>Delete</button>
+    <button onClick={() => deleteFreelancer(f.id)}>Delete</button>
   </div>
 ))}
     </div>
